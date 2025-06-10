@@ -243,67 +243,65 @@
                                     <div class="swiper-wrapper">
 
                                         <div class="swiper-slide">
-                                            <div class="swiper-slide">
-                                                <form class="custom-form" action="#" method="post" name="register">
+                                            <form class="custom-form" action="#" method="post" name="register">
                                                    
-                                                    <div class="custom-form--body">
-                                                        <div class="row gutters-form">
-                                                            <div class="col-12">
-                                                                <div class="form-group">
-                                                                    <label class="custom-label">
-                                                                        <span class="custom-label-text">I am</span>
-                                                                    </label>
-                                                                    <div class="switch-group">
-                                                                        <label class="switch-group-element">
-                                                                            <input type="radio" checked name="iam-mob" id="male-mob" hidden>
-                                                                            <div class="btn btn--sm switch-btn"><span class="info">Male</span></div>
-                                                                        </label>
-                                                                        <label class="switch-group-element">
-                                                                            <input type="radio" name="iam-mob" id="female-mob" hidden>
-                                                                            <div class="btn btn--sm switch-btn"><span class="info">Female</span></div>
-                                                                        </label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12">
-                                                                <div class="form-group">
-                                                                    <label class="custom-label">
-                                                                        <span class="custom-label-text">My name is</span>
-                                                                    </label>
-                                                                    <div class="input-wrapper input--solid input--sm">
-                                                                        <input type="text" class="input" placeholder="e.g. Alex" name="name">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12">
-                                                                <div class="form-group">
-                                                                    <label class="custom-label">
-                                                                        <span class="custom-label-text">I was born on</span>
-                                                                    </label>
-                                                                    <div class="input-wrapper input--solid input--sm">
-                                                                        <input type="text" class="input" placeholder="MM/DD/YYYY" name="name">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12">
-                                                                <label class="check-element">
-                                                                    <input type="checkbox" hidden checked>
-                                                                    <div class="check"></div>
-                                                                    <p class="check-text">
-                                                                        I have read understand and agree to Terms of 
-                                                                        Use, Privacy Policy, Disclosures&Disclaimers.
-                                                                    </p>
+                                                <div class="custom-form--body">
+                                                    <div class="row gutters-form">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="custom-label">
+                                                                    <span class="custom-label-text">I am</span>
                                                                 </label>
-                                                            </div>
-                                                            <div class="col-12">
-                                                                <button type="submit" class="btn btn--sm w-full radius btn--custom-3">
-                                                                    <b class="info">Sign up now</b>
-                                                                </button>
+                                                                <div class="switch-group">
+                                                                    <label class="switch-group-element">
+                                                                        <input type="radio" checked name="iam-mob" id="male-mob" hidden>
+                                                                        <div class="btn btn--sm switch-btn"><span class="info">Male</span></div>
+                                                                    </label>
+                                                                    <label class="switch-group-element">
+                                                                        <input type="radio" name="iam-mob" id="female-mob" hidden>
+                                                                        <div class="btn btn--sm switch-btn"><span class="info">Female</span></div>
+                                                                    </label>
+                                                                </div>
                                                             </div>
                                                         </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="custom-label">
+                                                                    <span class="custom-label-text">My name is</span>
+                                                                </label>
+                                                                <div class="input-wrapper input--solid input--sm">
+                                                                    <input type="text" class="input" placeholder="e.g. Alex" name="name">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="custom-label">
+                                                                    <span class="custom-label-text">I was born on</span>
+                                                                </label>
+                                                                <div class="input-wrapper input--solid input--sm">
+                                                                    <input type="text" class="input" placeholder="MM/DD/YYYY" name="name">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <label class="check-element">
+                                                                <input type="checkbox" hidden checked>
+                                                                <div class="check"></div>
+                                                                <p class="check-text">
+                                                                    I have read understand and agree to Terms of 
+                                                                    Use, Privacy Policy, Disclosures&Disclaimers.
+                                                                </p>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <button type="submit" class="btn btn--sm w-full radius btn--custom-3">
+                                                                <b class="info">Sign up now</b>
+                                                            </button>
+                                                        </div>
                                                     </div>
-                                                </form>
-                                            </div>
+                                                </div>
+                                            </form>
                                         </div>
 
                                         <div class="swiper-slide">
@@ -835,9 +833,13 @@
         window.onload = function() {
             const swiper_form = new Swiper('.swiper-form', {
                 autoHeight: true,
+               
                 effect: "fade",
                 allowTouchMove: false,
-                fadeEffect: { crossFade: true },
+                fadeEffect: {
+                    crossFade: true,
+                },
+                
                 slidersPerView: 1,
                 pagination: {
                     enabled: true,
