@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, 
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components/component.css">
+    <link rel="stylesheet" href="fonts/trebuchet-ms/stylesheet.css">
+    <link rel="stylesheet" href="fonts/cera-pro/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main-alpha.css">
+    <link rel="stylesheet" href="css/media-alpha.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="group-buttons justify-end hidden-450">
+                        <a href="#" class="btn btn--xs btn--custom-1 radius btn-min-1">
+                            <span class="info custom-text-gradient">Log in</span>
+                        </a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper header-fixed">
+        <main class="content">
+            <div class="section-custom py-0">
+                <div class="section-custom">
+                    <div class="container">
+                        <div class="trigger-section">
+                            <div class="trigger-content trigger-grid">
+                                <div class="trigger-content-container">
+                                    <div class="heading-block gap--md text-center-992">
+                                        <h1 class="heading">It’s a hot place for your streaming fantasy.</h1>
+                                        <div class="trigger-text-container">
+                                            <p class="text--xl">
+                                                It’s a free space for watching streams and chatting with alluring people. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prefooter-section-photo trigger-shape --trigger-shape-5 visible-450">
+                                <div class="prefooter-section-photo--hand">
+                                    <img src="img/image-hand--mob.png">
+                                </div>
+                                <div class="prefooter-section-message-block">
+                                    <div class="prefooter-section-message-block-wrpr-text">
+                                        <p class="prefooter-section-message-text">
+                                            free communication with streamers here
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="container prefooter-section-action">
+                                    <div class="group-buttons flex-col visible-450">
+                                        <a href="#scroll-form--mob" class="btn btn--lg w-full radius btn--custom-3 scroll_to">
+                                            <b class="info">Sign up now</b>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="trigger-form trigger-shape trigger-grid hidden-450" id="scroll-form">
+                                <div class="custom-card custom-card-1 flex flex-col">
+                                    <div class="swiper swiper-form">
+                                        <div class="swiper-wrapper">
+
+                                            <div class="swiper-slide">
+                                                <form class="custom-form" action="#" method="post" name="login">
+                                                    <div class="custom-form--header">
+                                                        <a href="#" class="btn btn--sm radius btn-icon btn--custom-2">
+                                                            <div class="btn--square btn--square--ico btn--square--ico--custom">
+                                                                <span class="ico"><img src="img/ico-google.svg"></span>
+                                                            </div>
+                                                            <span class="info btn-icon--text">Sign up with Google</span>
+                                                        </a>
+                                                        <div class="or-line"><span class="or-line-text">or</span></div>
+                                                    </div>
+                                                    <div class="custom-form--body">
+                                                        <div class="row gutters-form">
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">Email</span>
+                                                                    </label>
+                                                                    <div class="input-wrapper input--solid input--sm">
+                                                                        <input type="mail" class="input" placeholder="e.g. Alex@email.com" name="mail">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">Password</span>
+                                                                    </label>
+                                                                    <div class="input-wrapper input--solid input--sm">
+                                                                        <input type="password" class="input" placeholder="8+ characters" name="password">
+                                                                        <button type="button" class="btn--square btn--input btn--password">
+                                                                            <span class="ico">
+                                                                                <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                    <path d="M19.8698 6.962C20.3438 7.582 20.3438 8.419 19.8698 9.038C18.3768 10.987 14.7948 15 10.6128 15C6.4308 
+                                                                                    15 2.8488 10.987 1.3558 9.038C1.12519 8.74113 1 8.37592 1 8C1 7.62408 1.12519 7.25887 1.3558 6.962C2.8488 5.013 
+                                                                                    6.4308 1 10.6128 1C14.7948 1 18.3768 5.013 19.8698 6.962V6.962Z" 
+                                                                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                                    <path d="M10.6128 11C12.2697 11 13.6128 9.65685 13.6128 8C13.6128 6.34315 12.2697 5 10.6128 5C8.95595 5 7.61281 
+                                                                                    6.34315 7.61281 8C7.61281 9.65685 8.95595 11 10.6128 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                                </svg>
+                                                                            </span>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <button type="submit" class="btn btn--sm radius btn-icon btn--custom-2">
+                                                                    <div class="btn--square btn--square--ico btn--square--ico--custom">
+                                                                        <span class="ico">
+                                                                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <g>
+                                                                                    <path d="M0.0875076 6.22125C0.263939 5.44818 0.697654 4.75792 1.31762 
+                                                                                    4.26354C1.93759 3.76916 2.70706 3.49995 3.50001 3.5H24.5C25.293 3.49995 26.0624 
+                                                                                    3.76916 26.6824 4.26354C27.3024 4.75792 27.7361 5.44818 27.9125 6.22125L14 14.7245L0.0875076 
+                                                                                    6.22125ZM7.62939e-06 8.21975V20.6517L10.1553 14.4253L7.62939e-06 8.21975ZM11.8318 
+                                                                                    15.4525L0.334258 22.4998C0.618329 23.0987 1.06668 23.6047 1.62713 23.9589C2.18757 24.313 
+                                                                                    2.83706 24.5006 3.50001 24.5H24.5C25.1628 24.5001 25.8121 24.3121 26.3722 23.9577C26.9323 
+                                                                                    23.6032 27.3803 23.0971 27.664 22.498L16.1665 15.4508L14 16.7755L11.8318 15.4508V15.4525ZM17.8448 
+                                                                                    14.427L28 20.6517V8.21975L17.8448 14.4253V14.427Z" fill="currentColor"/>
+                                                                                </g>
+                                                                                <defs><clipPath><rect width="28" height="28" fill="white"/></clipPath></defs>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </div>
+                                                                    <span class="info btn-icon--text">Sign up with Google</span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="custom-form--footer pt-3">
+                                                        <p class="text--xs text--shadow --cera" data-text-shadow="
+                                                        You hereby confirm that you are fully able and competent to access Livebeam and 
+                                                        comply with the Terms of Use & Service, and are at least eighteen (18) years of 
+                                                        age or the age of majority under the law of the jurisdiction of your residence 
+                                                        and the one you are accessing Livebeam from."></p>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                            <div class="swiper-slide">
+                                                <form class="custom-form" action="#" method="post" name="register">
+                                                   
+                                                    <div class="custom-form--body">
+                                                        <div class="row gutters-form">
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">I am</span>
+                                                                    </label>
+                                                                    <div class="switch-group">
+                                                                        <label class="switch-group-element">
+                                                                            <input type="radio" checked name="iam-desk" id="male-desk" hidden>
+                                                                            <div class="btn btn--sm switch-btn"><span class="info">Male</span></div>
+                                                                        </label>
+                                                                        <label class="switch-group-element">
+                                                                            <input type="radio" name="iam-desk" id="female-desk" hidden>
+                                                                            <div class="btn btn--sm switch-btn"><span class="info">Female</span></div>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">My name is</span>
+                                                                    </label>
+                                                                    <div class="input-wrapper input--solid input--sm">
+                                                                        <input type="text" class="input" placeholder="e.g. Alex" name="name">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">I was born on</span>
+                                                                    </label>
+                                                                    <div class="input-wrapper input--solid input--sm">
+                                                                        <input type="text" class="input" placeholder="MM/DD/YYYY" name="name">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <label class="check-element">
+                                                                    <input type="checkbox" hidden checked>
+                                                                    <div class="check"></div>
+                                                                    <p class="check-text">
+                                                                        I have read understand and agree to Terms of 
+                                                                        Use, Privacy Policy, Disclosures&Disclaimers.
+                                                                    </p>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <button type="submit" class="btn btn--sm w-full radius btn--custom-3">
+                                                                    <b class="info">Sign up now</b>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="swiper-pagination swiper-pag-form"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="section-custom">
+                    <div class="container">
+                        <div class="trigger-content-container trigger-content visible-450">
+                            <div class="heading-block gap--md text-center-992">
+                                <h1 class="heading text-left-450">It’s a dedicated space for your bold fantasies!</h1>
+                                <div class="trigger-text-container-3 mx-auto-992">
+                                    <p class="text--lg text-left-450">
+                                        Hundreds of attractive admirers are already waiting for you here. Don’t 
+                                        delay – dive into the world of streaming, flirting, and hot communication right now!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trigger-form trigger-shape trigger-grid visible-450" id="scroll-form--mob">
+                            <div class="custom-card custom-card-1 flex flex-col">
+                                <div class="swiper swiper-form">
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide">
+                                            <div class="swiper-slide">
+                                                <form class="custom-form" action="#" method="post" name="register">
+                                                   
+                                                    <div class="custom-form--body">
+                                                        <div class="row gutters-form">
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">I am</span>
+                                                                    </label>
+                                                                    <div class="switch-group">
+                                                                        <label class="switch-group-element">
+                                                                            <input type="radio" checked name="iam-mob" id="male-mob" hidden>
+                                                                            <div class="btn btn--sm switch-btn"><span class="info">Male</span></div>
+                                                                        </label>
+                                                                        <label class="switch-group-element">
+                                                                            <input type="radio" name="iam-mob" id="female-mob" hidden>
+                                                                            <div class="btn btn--sm switch-btn"><span class="info">Female</span></div>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">My name is</span>
+                                                                    </label>
+                                                                    <div class="input-wrapper input--solid input--sm">
+                                                                        <input type="text" class="input" placeholder="e.g. Alex" name="name">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="form-group">
+                                                                    <label class="custom-label">
+                                                                        <span class="custom-label-text">I was born on</span>
+                                                                    </label>
+                                                                    <div class="input-wrapper input--solid input--sm">
+                                                                        <input type="text" class="input" placeholder="MM/DD/YYYY" name="name">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <label class="check-element">
+                                                                    <input type="checkbox" hidden checked>
+                                                                    <div class="check"></div>
+                                                                    <p class="check-text">
+                                                                        I have read understand and agree to Terms of 
+                                                                        Use, Privacy Policy, Disclosures&Disclaimers.
+                                                                    </p>
+                                                                </label>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <button type="submit" class="btn btn--sm w-full radius btn--custom-3">
+                                                                    <b class="info">Sign up now</b>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <form class="custom-form" action="#" method="post" name="login">
+                                                <div class="custom-form--header">
+                                                    <a href="#" class="btn btn--sm radius btn-icon btn--custom-2">
+                                                        <div class="btn--square btn--square--ico btn--square--ico--custom">
+                                                            <span class="ico"><img src="img/ico-google.svg"></span>
+                                                        </div>
+                                                        <span class="info btn-icon--text">Sign up with Google</span>
+                                                    </a>
+                                                    <div class="or-line"><span class="or-line-text">or</span></div>
+                                                </div>
+                                                <div class="custom-form--body">
+                                                    <div class="row gutters-form">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="custom-label">
+                                                                    <span class="custom-label-text">Email</span>
+                                                                </label>
+                                                                <div class="input-wrapper input--solid input--sm">
+                                                                    <input type="mail" class="input" placeholder="e.g. Alex@email.com" name="mail">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label class="custom-label">
+                                                                    <span class="custom-label-text">Password</span>
+                                                                </label>
+                                                                <div class="input-wrapper input--solid input--sm">
+                                                                    <input type="password" class="input" placeholder="8+ characters" name="password">
+                                                                    <button type="button" class="btn--square btn--input btn--password">
+                                                                        <span class="ico">
+                                                                            <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                                <path d="M19.8698 6.962C20.3438 7.582 20.3438 8.419 19.8698 9.038C18.3768 10.987 14.7948 15 10.6128 15C6.4308 
+                                                                                15 2.8488 10.987 1.3558 9.038C1.12519 8.74113 1 8.37592 1 8C1 7.62408 1.12519 7.25887 1.3558 6.962C2.8488 5.013 
+                                                                                6.4308 1 10.6128 1C14.7948 1 18.3768 5.013 19.8698 6.962V6.962Z" 
+                                                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                                <path d="M10.6128 11C12.2697 11 13.6128 9.65685 13.6128 8C13.6128 6.34315 12.2697 5 10.6128 5C8.95595 5 7.61281 
+                                                                                6.34315 7.61281 8C7.61281 9.65685 8.95595 11 10.6128 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                            </svg>
+                                                                        </span>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <button type="submit" class="btn btn--sm radius btn-icon btn--custom-2">
+                                                                <div class="btn--square btn--square--ico btn--square--ico--custom">
+                                                                    <span class="ico">
+                                                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <g>
+                                                                                <path d="M0.0875076 6.22125C0.263939 5.44818 0.697654 4.75792 1.31762 
+                                                                                4.26354C1.93759 3.76916 2.70706 3.49995 3.50001 3.5H24.5C25.293 3.49995 26.0624 
+                                                                                3.76916 26.6824 4.26354C27.3024 4.75792 27.7361 5.44818 27.9125 6.22125L14 14.7245L0.0875076 
+                                                                                6.22125ZM7.62939e-06 8.21975V20.6517L10.1553 14.4253L7.62939e-06 8.21975ZM11.8318 
+                                                                                15.4525L0.334258 22.4998C0.618329 23.0987 1.06668 23.6047 1.62713 23.9589C2.18757 24.313 
+                                                                                2.83706 24.5006 3.50001 24.5H24.5C25.1628 24.5001 25.8121 24.3121 26.3722 23.9577C26.9323 
+                                                                                23.6032 27.3803 23.0971 27.664 22.498L16.1665 15.4508L14 16.7755L11.8318 15.4508V15.4525ZM17.8448 
+                                                                                14.427L28 20.6517V8.21975L17.8448 14.4253V14.427Z" fill="currentColor"/>
+                                                                            </g>
+                                                                            <defs><clipPath><rect width="28" height="28" fill="white"/></clipPath></defs>
+                                                                        </svg>
+                                                                    </span>
+                                                                </div>
+                                                                <span class="info btn-icon--text">Sign up with Google</span>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-form--footer pt-3">
+                                                    <p class="text--xs text--shadow --cera" data-text-shadow="
+                                                    You hereby confirm that you are fully able and competent to access Livebeam and 
+                                                    comply with the Terms of Use & Service, and are at least eighteen (18) years of 
+                                                    age or the age of majority under the law of the jurisdiction of your residence 
+                                                    and the one you are accessing Livebeam from."></p>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="swiper-pagination swiper-pag-form"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-custom">
+                    <div class="swiper swiper-gifs">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="custom-gif"><img src="img/gif-0.gif" loading="lazy"></div>
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="custom-gif"><img src="img/gif-1.gif" loading="lazy"></div>
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="custom-gif"><img src="img/gif-2.gif" loading="lazy"></div>
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="custom-gif"><img src="img/gif-0.gif" loading="lazy"></div>
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="custom-gif"><img src="img/gif-1.gif" loading="lazy"></div>
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="custom-gif"><img src="img/gif-2.gif" loading="lazy"></div>
+                                <div class="swiper-lazy-preloader"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-custom">
+                    <div class="container">
+                        <div class="custom-card custom-card-2 flex flex-col trigger-shape --trigger-shape-2">
+                            <div class="trigger-content-container --trigger-size-2 mx-auto text-center">
+                                <div class="heading-block gap--md">
+                                    <h1 class="heading">About</h1>
+                                    <p class="text--xl">
+                                        It’s a global <b>streaming platform</b> for communication and meeting 
+                                        incredibly beautiful people. 
+                                        We created an excellent place where you can enjoy your time and find 
+                                        <b>appropriate matches</b> at first.
+                                        <br><br>
+                                        Approximately 80% of our users have already found their lovelies. 
+                                        <b>Watch streams</b> without 
+                                        hindrance and meet someone <b>who interests</b> you.
+                                    </p>
+                                    <div class="--trigger-size-2-group-buttons-container mx-auto">
+                                        <div class="group-buttons flex-col py-3">
+                                            <a href="#scroll-form" class="btn btn--lg w-full radius btn--custom-3 scroll_to hidden-450">
+                                                <b class="info">Join for free</b>
+                                            </a>
+                                            <a href="#scroll-form--mob" class="btn btn--lg w-full radius btn--custom-3 scroll_to flex-450">
+                                                <b class="info">Join for free</b>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-custom trigger-shape --trigger-shape-3">
+                    <div class="container">
+                        <div class="section-content">
+                            <div class="heading-block gap--md text-center">
+                                <h1 class="heading">Why join us?</h1>
+                            </div>
+                            <div class="swiper swiper-features visible-450">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="custom-card custom-card-3 flex flex-col h-full">
+                                            <div class="feature-content-block">
+                                                <div class="feature-content-block--head">
+                                                    <div class="ico feature-ico"><img src="img/ico-feature-0.svg"></div>
+                                                    <p class="text--xl feature-title">Chat with attractive streamers for free</p>
+                                                </div>
+                                                <div class="feature-content-block--body">
+                                                    <p class="text--md feature-desk-text">
+                                                        It’s an excellent web platform for streaming. Write messages to the beautiful 
+                                                        streamers for free and explore this magical universe of communication!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="custom-card custom-card-3 flex flex-col h-full">
+                                            <div class="feature-content-block">
+                                                <div class="feature-content-block--head">
+                                                    <div class="ico feature-ico"><img src="img/ico-feature-1.svg"></div>
+                                                    <p class="text--xl feature-title">Only verified users</p>
+                                                </div>
+                                                <div class="feature-content-block--body">
+                                                    <p class="text--md feature-desk-text">
+                                                        We care about the privacy and security of our customers. All accounts 
+                                                        are verified so look for an attractive stranger confidently!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="custom-card custom-card-3 flex flex-col h-full">
+                                            <div class="feature-content-block">
+                                                <div class="feature-content-block--head">
+                                                    <div class="ico feature-ico"><img src="img/ico-feature-2.svg"></div>
+                                                    <p class="text--xl feature-title">Customized search</p>
+                                                </div>
+                                                <div class="feature-content-block--body">
+                                                    <p class="text--md feature-desk-text">
+                                                        Match alluring partners for your own preferences. Maybe you will be interested in 
+                                                        a hot slender European or shy beautiful Asian? Make your choice… 
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="custom-card custom-card-3 flex flex-col h-full">
+                                            <div class="feature-content-block">
+                                                <div class="feature-content-block--head">
+                                                    <div class="ico feature-ico"><img src="img/ico-feature-3.svg"></div>
+                                                    <p class="text--xl feature-title">Easy to use</p>
+                                                </div>
+                                                <div class="feature-content-block--body">
+                                                    <p class="text--md feature-desk-text">
+                                                        Forget about hundreds of annoying notifications and inconvenient use. 
+                                                        We have created the platform as easy to use and search as possible. 
+                                                        Don’t waste your time studying functionality. Just enjoy!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-features hidden-450">
+                                <div class="grid-feature --one">
+                                    <div class="custom-card custom-card-3 flex flex-col h-full">
+                                        <div class="feature-content-block">
+                                            <div class="feature-content-block--head">
+                                                <div class="ico feature-ico"><img src="img/ico-feature-0.svg"></div>
+                                                <p class="text--xl feature-title">Chat with attractive streamers for free</p>
+                                            </div>
+                                            <div class="feature-content-block--body">
+                                                <p class="text--md feature-desk-text">
+                                                    It’s an excellent web platform for streaming. Write messages to the beautiful 
+                                                    streamers for free and explore this magical universe of communication!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-feature --two">
+                                    <div class="custom-card custom-card-3 flex flex-col h-full">
+                                        <div class="feature-content-block">
+                                            <div class="feature-content-block--head">
+                                                <div class="ico feature-ico"><img src="img/ico-feature-1.svg"></div>
+                                                <p class="text--xl feature-title">Only verified users</p>
+                                            </div>
+                                            <div class="feature-content-block--body">
+                                                <p class="text--md feature-desk-text">
+                                                    We care about the privacy and security of our customers. All accounts 
+                                                    are verified so look for an attractive stranger confidently!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-feature --three">
+                                    <div class="custom-card custom-card-3 flex flex-col h-full">
+                                        <div class="feature-content-block">
+                                            <div class="feature-content-block--head">
+                                                <div class="ico feature-ico"><img src="img/ico-feature-2.svg"></div>
+                                                <p class="text--xl feature-title">Customized search</p>
+                                            </div>
+                                            <div class="feature-content-block--body">
+                                                <p class="text--md feature-desk-text">
+                                                    Match alluring partners for your own preferences. Maybe you will be interested in 
+                                                    a hot slender European or shy beautiful Asian? Make your choice… 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-feature --four">
+                                    <div class="custom-card custom-card-3 flex flex-col h-full">
+                                        <div class="feature-content-block">
+                                            <div class="feature-content-block--head">
+                                                <div class="ico feature-ico"><img src="img/ico-feature-3.svg"></div>
+                                                <p class="text--xl feature-title">Easy to use</p>
+                                            </div>
+                                            <div class="feature-content-block--body">
+                                                <p class="text--md feature-desk-text">
+                                                    Forget about hundreds of annoying notifications and inconvenient use. 
+                                                    We have created the platform as easy to use and search as possible. 
+                                                    Don’t waste your time studying functionality. Just enjoy!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-custom visible-450">
+                    <div class="container">
+                        <div class="custom-gif"><img src="img/img-women-2.jpg" loading="lazy"></div>
+                    </div>
+                </div>
+                <div class="section-custom">
+                    <div class="container">
+                        <div class="section-content trigger-shape --trigger-shape-4">
+                             <div class="heading-block gap--md text-center">
+                                <h1 class="heading">Here you can find</h1>
+                            </div>
+                            <div class="container container--sm mx-auto px-0-450">
+                                <div class="more-links-block-list">
+                                    <a href="#" class="custom-card custom-card-4 flex flex-col more-link-block">
+                                        <div class="feature-content-block--head justify-center more-link-container">
+                                            <div class="ico feature-ico"><img src="img/ico-other-0.svg"></div>
+                                            <p class="text--xl feature-desk-text">
+                                                Watching streams of everyone you really like;
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="custom-card custom-card-4 flex flex-col more-link-block">
+                                        <div class="feature-content-block--head justify-center more-link-container">
+                                            <div class="ico feature-ico"><img src="img/ico-other-1.svg"></div>
+                                            <p class="text--xl feature-desk-text">
+                                                Free communication with pretty streamers;
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="custom-card custom-card-4 flex flex-col more-link-block">
+                                        <div class="feature-content-block--head justify-center more-link-container">
+                                            <div class="ico feature-ico"><img src="img/ico-other-2.svg"></div>
+                                            <p class="text--xl feature-desk-text">
+                                                Sweet connection with people you match;
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="custom-card custom-card-4 flex flex-col more-link-block">
+                                        <div class="feature-content-block--head justify-center more-link-container">
+                                            <div class="ico feature-ico"><img src="img/ico-other-3.svg"></div>
+                                            <p class="text--xl feature-desk-text">
+                                                New acquaintances with someone who has similar interests;
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="custom-card custom-card-4 flex flex-col more-link-block">
+                                        <div class="feature-content-block--head justify-center more-link-container">
+                                            <div class="ico feature-ico"><img src="img/ico-other-4.svg"></div>
+                                            <p class="text--xl feature-desk-text">
+                                                Fascinating hobbies and exciting occupations from people you fancy.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-custom">
+                    <div class="section-content">
+                        <div class="container container--md">
+                            <div class="heading-block gap--md text-center">
+                                <h1 class="heading text-left-450">It’s a universe of communication and streaming without borders!</h1>
+                                <div class="trigger-text-container-2 mx-auto">
+                                    <p class="text--xl text-left-450">
+                                        Let yourself to be free – share your thoughts, delight, and fears with beautiful strangers!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper swiper-gifs-2 my-3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="custom-gif"><img src="img/img-women-0.jpg" loading="lazy"></div>
+                                    <div class="swiper-lazy-preloader"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="custom-gif"><img src="img/img-women-1.jpg" loading="lazy"></div>
+                                    <div class="swiper-lazy-preloader"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="custom-gif"><img src="img/img-women-2.jpg" loading="lazy"></div>
+                                    <div class="swiper-lazy-preloader"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="custom-gif"><img src="img/img-women-0.jpg" loading="lazy"></div>
+                                    <div class="swiper-lazy-preloader"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="custom-gif"><img src="img/img-women-1.jpg" loading="lazy"></div>
+                                    <div class="swiper-lazy-preloader"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="custom-gif"><img src="img/img-women-2.jpg" loading="lazy"></div>
+                                    <div class="swiper-lazy-preloader"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container container--md">
+                            <div class="--trigger-size-2-group-buttons-container mx-auto">
+                                <div class="group-buttons flex-col ">
+                                    <a href="#scroll-form" class="btn btn--lg w-full radius btn--custom-3 scroll_to hidden-450">
+                                        <b class="info">Join us for free</b>
+                                    </a>
+                                    <a href="#scroll-form--mob" class="btn btn--lg w-full radius btn--custom-3 scroll_to flex-450">
+                                        <b class="info">Join us for free</b>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-custom">
+                    <div class="container">
+                        <div class="prefooter-section">
+                            <div class="prefooter-section-content">
+                                <div class="trigger-content-container trigger-content hidden-450">
+                                    <div class="heading-block gap--md text-center-992">
+                                        <h1 class="heading text-left-450">It’s a dedicated space for your bold fantasies!</h1>
+                                        <div class="trigger-text-container-3 mx-auto-992">
+                                            <p class="text--lg text-left-450">
+                                                Hundreds of attractive admirers are already waiting for you here. Don’t 
+                                                delay – dive into the world of streaming, flirting, and hot communication right now!
+                                            </p>
+                                        </div>
+                                        <div class="--trigger-size-2-group-buttons-container mx-auto-992 hidden-450">
+                                            <div class="group-buttons flex-col ">
+                                                <a href="#scroll-form" class="btn btn--lg w-full radius btn--custom-3 scroll_to">
+                                                    <b class="info">Write to her</b>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prefooter-section-photo trigger-shape --trigger-shape-5 hidden-450">
+                                <div class="prefooter-section-photo--hand">
+                                    <img src="img/image-hand.png">
+                                </div>
+                                <div class="prefooter-section-message-block">
+                                    <div class="prefooter-section-message-block-wrpr-text">
+                                        <p class="prefooter-section-message-text">
+                                            free communication with streamers here
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <div class="footer-row-grid">
+                        <div class="footer-nav-list">
+                            <ul class="footer-nav-ul">
+                                <li class="footer-nav-ul-item">
+                                    <a href="mailto:support@gmail.com" class="default-link">
+                                        <span class="info text--lg">support@gmail.com</span>
+                                    </a>
+                                </li>
+                                <li class="footer-nav-ul-item">
+                                    <a href="#" class="default-link">
+                                        <span class="info text--lg">Unsubscribe</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-row-grid">
+                        <div class="footer-row">
+                            <div class="footer-row-grid">
+                                <div class="footer-nav-list">
+                                    <p class="footer-nav-title text--lg">Legal terms</p>
+                                    <ul class="footer-nav-ul">
+                                        <li class="footer-nav-ul-item">
+                                            <a href="#" class="default-link">
+                                                <span class="info text--lg">Terms of Use</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer-nav-ul-item">
+                                            <a href="#" class="default-link">
+                                                <span class="info text--lg">Diclosures&Disclaimers</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-row-grid">
+                                <div class="footer-nav-list">
+                                    <p class="footer-nav-title text--lg">Privacy info</p>
+                                    <ul class="footer-nav-ul">
+                                        <li class="footer-nav-ul-item">
+                                            <a href="#" class="default-link">
+                                                <span class="info text--lg">Privacy Policy</span>
+                                            </a>
+                                        </li>
+                                        <li class="footer-nav-ul-item">
+                                            <a href="#" class="default-link">
+                                                <span class="info text--lg">Cookie Policy</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-row-grid">
+                                <div class="footer-nav-list">
+                                    <p class="footer-nav-title text--lg">About</p>
+                                    <ul class="footer-nav-ul">
+                                        <li class="footer-nav-ul-item">
+                                            <a href="#" class="default-link">
+                                                <span class="info text--lg">About Us</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        window.onload = function() {
+            const swiper_form = new Swiper('.swiper-form', {
+                autoHeight: true,
+                effect: "fade",
+                allowTouchMove: false,
+                fadeEffect: { crossFade: true },
+                slidersPerView: 1,
+                pagination: {
+                    enabled: true,
+                    clickable: true,
+                    el: '.swiper-pagination',
+                }
+            })
+            const swiper_gifs = new Swiper('.swiper-gifs', {
+                loop: true, slidesPerView: 3.5,
+                spaceBetween: 39,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 3000, disableInteraction: false
+                },
+                // Responsive breakpoints
+                breakpoints: {
+                    315: {spaceBetween: 0, slidesPerView: 1, freeMode: false},
+                    576: {spaceBetween: 20, slidesPerView: 2, freeMode: true},
+                    768: {spaceBetween: 20, slidesPerView: 2.5, freeMode: true},
+                    992: {spaceBetween: 20, slidesPerView: 3, freeMode: true},
+                    998: {spaceBetween: 20, slidesPerView: 3.5, freeMode: true},
+                    1200: {spaceBetween: 39, slidesPerView: 3.5, freeMode: true}
+                }
+            })
+            const swiper_gifs2 = new Swiper('.swiper-gifs-2', {
+                loop: true,
+               
+                centeredSlides: true, 
+                breakpoints: {
+                    315: {spaceBetween: 0, slidesPerView: 1, freeMode: false},
+                    576: {spaceBetween: 20, slidesPerView: 2, freeMode: true},
+                    768: {spaceBetween: 20, slidesPerView: 2.5, freeMode: true},
+                    992: {spaceBetween: 20, slidesPerView: 3, freeMode: true},
+                    998: {spaceBetween: 20, slidesPerView: 3.5, freeMode: true},
+                    1200: {spaceBetween: 25, slidesPerView: 4.5, freeMode: true},
+                    1440: {spaceBetween: 39, slidesPerView: 4.5, freeMode: true}
+                },
+                autoplay: {
+                    delay: 3000, disableInteraction: false
+                }
+            })
+
+            const swiper_features = new Swiper('.swiper-features', {
+                loop: true,
+                slidesPerView: 1, spaceBetween: 20,
+                autoplay: {
+                    delay: 4000, disableInteraction: false
+                }
+            })
+
+
+            $('.scroll_to').on('click', function(event) {
+                event.preventDefault();
+                var target = $($(this).attr('href'));
+
+                if(target.length) {
+                    if($("body").hasClass("menu-open") && 
+                    ($(".header__burger").length > 0 && $(".header__burger"))
+                    .hasClass("active")){
+                        $("body").removeClass("menu-open");
+                        $(".header__burger").removeClass("active");
+                    }
+                    $('html, body').animate({scrollTop: target.offset().top}, 500);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
+
+
+

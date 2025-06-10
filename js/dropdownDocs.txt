@@ -1,0 +1,40 @@
+Опции ====================================================
+options = {
+	position: 'top-start',     	- позицыя октытия дропдауна "top-end", "bottom-start", "bottom-end" 						постандарту top-start;
+	insideoverflow: true,		- вырезает дропдаун из родителя и закидывает в container "по стандрту 					body"
+	
+	актуально при insideoverflow: true
+        autoPositions: true,		- автокорекция позиции по Y 
+        corectionx: true,		- автокорекция позиции по X
+        mobileGutters: 15,		- отспупы слева и справа при достижении края окна браузера,
+	отступы сверху и снизу определяються margin-top у data-role="dropdown"           
+        container: 'body',		- куда закидывать data-role="dropdown", актуально когда у какого-то 					родителя data-dropdown="dropdown" position: relative; так как калькуляция будет производиться от него 
+}
+
+Все опции можно задавать через дата атрибуты родителя data-dropdown="dropdown" для каждого экземпляра свои например data-position = "top-end" 
+
+Евенты ==================================================
+
+open - срабатывает при открытии выпадашки
+
+close - срабатывает при закрытии выпадашки
+
+пример использования 
+
+var dropdown = new dropdownInit('.dropdown', {})
+
+dropdown.on("open", function(){
+    console.log('is-open')
+})
+
+Методы ===================================================
+
+renderPosition - калькуляция позиции
+
+open - открывает дропдаун 
+
+dropdownClose - закрывает дропдаун
+
+toggle - закрывает если открытый и открывает если закрытый
+
+destroy - убирает все слушатели и разрушает экземпляр

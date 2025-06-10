@@ -1,0 +1,126 @@
+.form-group{
+    display: flex;
+    flex-direction:column;
+    --padding-x: 0;
+    --input-height: unset;
+    --font-size: unset;
+    --ico-size: unset;
+    --gap: 10px;
+    --gap-between: 12px;
+    --rounded: 10px;
+    gap: var(--gap-between);
+}
+
+
+.custom-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-label-text{
+    font-weight: 400;
+    font-size: var(--text--md);
+    color: var(--defaultTextColor);
+    font-family: var(--fontFamily);
+}
+.input-wrapper{
+    display: flex;
+}
+
+.input-wrapper {
+    border-radius: var(--rounded);
+    overflow: hidden;
+    position: relative;
+    height: var(--input-height);
+}
+
+input,
+button,
+textarea {
+    font-family: var(--fontFamily);
+}
+
+.input,
+.textarea {
+    font-weight: 400;
+    max-width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0 var(--padding-x);
+    flex: auto;
+    border-radius: var(--rounded);
+    font-size: var(--font-size);
+}
+
+.input {
+    height: var(--input-height);
+}
+
+.textarea {
+    min-height: var(--input-height);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    color: var(--placeholder-color);
+    font-weight: 400;
+}
+
+
+.input--xs {
+    --padding-x: 20px;
+    --input-height: var(--input-size--xs);
+    --font-size: var(--text--md);
+    --ico-size: 22px;
+}
+
+.input--sm {
+    --padding-x: 20px;
+    --input-height: var(--input-size--sm);
+    --font-size: var(--text--md);
+    --ico-size: 22px;
+}
+
+.input--md {
+    --padding-x: 20px;
+    --input-height: var(--input-size--md);
+    --font-size: var(--text--md);
+    --ico-size: 22px;
+}
+
+.input--lg {
+    --padding-x: 20px;
+    --input-height: var(--input-size--lg);
+    --font-size: var(--text--md);
+    --ico-size: 22px;
+    --rounded: 0px;
+}
+
+.input--xl {
+    --padding-x: 20px;
+    --input-height: var(--input-size--xl);
+    --font-size: var(--text--md);
+    --ico-size: 22px;
+    --rounded: 0px;
+}
+
+
+.input--solid {
+    background-color: var(--bg-form-element);
+    color: var(--secondary);
+}
+.input--solid::placeholder{
+    color: var(--placeholder-color);
+}
+
+.btn--input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --min-height: var(--input-height);
+    background: transparent;
+}
+.btn--password{
+    color: var(--placeholder-color);
+}
