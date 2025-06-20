@@ -1,0 +1,65 @@
+.btn {
+    border: 1px solid transparent;
+    font-size: var(--defaultFontSize);
+    line-height: var(--defaultLineHeight);
+    background-color: transparent;
+    font-weight: 400;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
+    --min-height: unset;
+    min-height: var(--min-height);
+}
+
+
+.btn.disabled {
+    pointer-events: none;
+    opacity: .65;
+}
+
+.btn--xs {
+    padding: 4px 10px;
+    --min-height: var(--btn-size--xs);
+    --ico-size: 16px;
+    font-size: var(--text--md);
+}
+
+.btn--sm {
+    padding: 4px 11px;
+    --min-height: var(--btn-size--sm);
+    --ico-size: 24px;
+    font-size: var(--text--md);
+}
+
+.btn--md {
+    padding: 4px 12px;
+    --min-height: var(--btn-size--md);
+     --ico-size: 16px;
+     font-size: var(--text--md);
+}
+
+.btn--lg {
+    padding: 4px 14px;
+    --min-height: var(--btn-size--lg);
+     --ico-size: 16px;
+     font-size: var(--text--xl);
+}
+
+.btn--xl {
+    padding: 4px 16px;
+    --min-height: var(--btn-size--xl);
+     --ico-size: 16px;
+     font-size: var(--text--md);
+}
+
+.btn--square {
+    width: var(--min-height);
+    min-width: var(--min-height);
+    height: var(--min-height);
+    padding: 0;
+    flex: 0 0 var(--min-height);
+}

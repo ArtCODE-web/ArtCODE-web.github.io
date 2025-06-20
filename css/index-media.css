@@ -1,0 +1,62 @@
+@media (max-width: 1440px) {
+   
+}
+@media (max-width: 1280px) {
+
+}
+@media (max-width: 1199.98px) {
+    
+}
+@media (max-width: 991.98px) {
+    
+}
+@media (max-width: 767.98px) {
+    
+}
+@media (max-width: 575.98px) {
+    :root{
+        --h1Size: 30px;
+        --h2Size: 26px;
+        --h3Size: 20px;
+    }
+    .trigger-section{
+        padding: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .article-container{padding: 15px;}
+    .sale-btn{
+        --min-height: 50px;
+    }
+    .countdown-item-nmb{
+        font-weight: 700;
+        font-size: 30px;
+        color: #2d80c4;
+    }
+    .countdown-item{
+        flex-direction: column;
+        text-align: center;
+        min-width: 50px;
+        max-width: 50px;
+    }
+    :root{
+        --h1Size: 26px;
+        --h2Size: 20px;
+        --h3Size: 20px;
+        --defaultFontSize: 16px;
+        --text--md: 16px;
+        --text--lg: 16px;
+        --text--xl: 16px;
+    }
+    .input--sm{
+        --padding-x: 10px;
+    }
+    .article-chat-ask-comment-row{
+        flex-direction: column;
+        
+    }
+}
+
+@media (min-width: 450px) {
+    
+}
